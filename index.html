@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generating Conference Ticket</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container-image">
+        <div class="container-content">
+          <img src="assets/images/pattern-lines.svg" alt="" />
+          <div class="pattern-circle">
+            <img src="assets/images/pattern-circle.svg" alt="" />
+          </div>
+          <div class="image-1">
+            <img
+              src="assets/images/pattern-squiggly-line-bottom-desktop.svg"
+              alt=""
+            />
+          </div>
+          <div class="image-2">
+            <img src="assets/images/pattern-squiggly-line-top.svg" alt="" />
+          </div>
+          <div class="logo">
+            <img src="assets/images/logo-full.svg" alt="" />
+
+            <div class="text">
+              <h1>Your Journey to Coding Conf <br />2025 Starts Here!</h1>
+              <p>Secure your spots at next year's biggest coding conference</p>
+            </div>
+            <div class="avatar">
+              <p>Upload Avatar</p>
+              <div class="upload">
+                <img src="assets/images/image-avatar.jpg" alt="" width="50px" />
+                <div class="avater-image">
+                  <button>Remove Image</button>
+                  <button>Change Image</button>
+                </div>
+              </div>
+            </div>
+            <form action="">
+              <p>Full Name</p>
+              <input type="text" name="" class="text" id="full-name" />
+              <p>Email Address</p>
+              <input type="text" name="" class="text" id="email" />
+              <p>GitHub Username</p>
+              <input type="text" name="" class="text" id="username" />
+            </form>
+            <button id="generate">Generate My Ticket</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="second-content">
+        <div class="logo2">
+          <img src="assets/images/logo-full.svg" alt="" />
+        </div>
+        <h1>
+          Congrats, <span id="ticket-user">Adewunmi Zainab!</span> <br />Your
+          ticket is ready.
+        </h1>
+        <p>
+          We've emailed your ticket to <br />
+          <span id="ticket-user-email">jonatan@email.com</span> and will send
+          updates in <br />the run up to the event.
+        </p>
+        <div class="generated-ticket">
+          <img src="assets/images/pattern-ticket.svg" alt="" />
+          <div class="ticket-content">
+            <img src="assets/images/logo-full.svg" alt="" />
+            <p id="current-date"></p>
+          </div>
+          <div class="profile">
+            <div class="pics">
+              <img src="assets/images/image-avatar.jpg" alt="" />
+            </div>
+            <div class="profile-info">
+              <h1>Jonatan Kristof</h1>
+              <p>@jonatankristof0101</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
